@@ -8,7 +8,7 @@ impl Solution
         let mut i = s1.len() as i32 - 1;
         let mut j = s2.len() as i32 - 1;
         
-        let mut carry = 0;
+        let mut carry  = 0;
         let mut result = String::new();
 
         while i >= 0 || j >= 0 || carry > 0 
